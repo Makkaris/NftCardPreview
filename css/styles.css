@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0d192b;
+}
+
+body header p {
+  margin-top: 20px;
+  font-family: 'Outfit';
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+body header p a {
+  text-decoration: underline;
+  color: #b1b1b1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body header p a:hover {
+  color: #00fff7;
+  -webkit-text-decoration: overline, underline;
+          text-decoration: overline, underline;
+}
+
+body section {
+  background-color: #14253d;
+  width: 325px;
+  margin: 10% 0 10% 0;
+  border-radius: 10px;
+  font-family: 'Outfit';
+  -webkit-box-shadow: 0 30px 30px 20px #080d17;
+          box-shadow: 0 30px 30px 20px #080d17;
+}
+
+body section div {
+  margin: 20px;
+}
+
+body section div .nftImage {
+  border-radius: 11px;
+  width: 100%;
+  background-color: #00fff7;
+  margin-top: 20px;
+}
+
+body section div .nftImage img {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+body section div .nftImage img:hover {
+  opacity: 0.75;
+}
+
+body section div h1 {
+  margin: 20px 0 20px 0;
+  font-size: 21px;
+  font-weight: 800;
+}
+
+body section div h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+body section div h1 a:hover {
+  color: #00fff7;
+}
+
+body section div p {
+  font-size: 18x;
+  font-weight: 300;
+  color: #8bacda;
+}
+
+body section div div {
+  margin: 10px 0 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body section div div .price {
+  color: #00fff7;
+}
+
+body section div div p {
+  margin: 0;
+  font-weight: 400;
+}
+
+body section div div svg {
+  margin-right: 5px;
+}
+
+body section div .nftAuthor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+}
+
+body section div .nftAuthor img {
+  margin-right: 10px;
+  width: 15%;
+  border: solid white 1px;
+  border-radius: 100%;
+}
+
+body section div .nftAuthor a {
+  text-decoration: none;
+  color: white;
+}
+
+body section div .nftAuthor a:hover {
+  color: #00fff7;
+}
+/*# sourceMappingURL=styles.css.map */

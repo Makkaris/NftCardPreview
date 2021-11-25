@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    header{
+        p{
+            margin-top: 20px;
+            font-family: 'Outfit';
+            font-size:20px;
+            color:white;
+            text-align:center;
+            a{
+                text-decoration: underline;
+                color:rgb(177, 177, 177);
+                transition:0.5s;
+            }
+            a:hover{
+                color:hsl(178, 100%, 50%);
+                text-decoration: overline, underline;
+            }
+        }
+    }
+    background-color: hsl(217, 54%, 11%);
+    section{
+        background-color: hsl(216, 50%, 16%);
+        width:325px;
+        margin: 10% 0 10% 0;
+        border-radius: 10px;
+        font-family: 'Outfit';
+        box-shadow: 0 30px 30px 20px hsl(218, 50%, 6%);
+        div{
+            margin:20px;
+            .nftImage{
+                border-radius: 11px;
+                width:100%;
+                background-color: hsl(178, 100%, 50%);
+                margin-top:20px;
+            }
+            .nftImage img{
+                width:100%;
+                border-radius: 10px;
+                transition:0.4s
+            }
+            .nftImage img:hover{
+                opacity:0.75;
+            }
+            h1{
+                margin:20px 0 20px 0;
+                font-size:21px;
+                font-weight: 800;
+                a{
+                    text-decoration: none;
+                    color: hsl(0, 0%, 100%);
+                }
+            }
+            h1 a:hover{
+                color:hsl(178, 100%, 50%);
+            }
+            p{
+                font-size:18x;
+                font-weight: 300;
+                color: hsl(215, 51%, 70%);
+            }
+            div{
+                margin:10px 0 10px 0;
+                display:flex;
+                justify-content: space-between;
+                .price{
+                    color:hsl(178, 100%, 50%);
+                }
+                p{
+                    margin:0;
+                    font-weight: 400;
+                }
+                svg{
+                    margin-right: 5px;;
+                }
+            }
+            .nftAuthor{
+                display:flex;
+                justify-content: left;
+                align-items: center;
+                padding-bottom: 20px;
+                img{
+                    margin-right: 10px;
+                    width:15%;
+                    border: solid white 1px;
+                    border-radius: 100%;
+                }
+                a{
+                    text-decoration: none;
+                    color: hsl(0, 0%, 100%);
+                }
+                a:hover{
+                    color:hsl(178, 100%, 50%);
+                }
+            }
+        }
+    }
+}
